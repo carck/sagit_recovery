@@ -31,6 +31,10 @@ Then to build:
     
     cd <source-dir>; . build/envsetup.sh; lunch omni_<device>-eng; mka recoveryimage
 
+## Test on emulator
+
+    ./emulator -avd TWRP -ramdisk CMFOLDER/out/target/product/twrp/ramdisk-recovery.img
+
 ## Device specifications
 
 Basic   | Spec Sheet
