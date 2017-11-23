@@ -26,6 +26,7 @@ Then to sync up:
     repo sync
 
 Then to build:
+    
     place this repo into <source-dir>/device/xiaomi/sagit folder
     
     cd <source-dir>; . build/envsetup.sh; lunch omni_<device>-eng; mka recoveryimage
